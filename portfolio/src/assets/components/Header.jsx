@@ -1,3 +1,7 @@
+/* eslint-disable no-unused-vars */
+import { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
+
 function Header() {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
